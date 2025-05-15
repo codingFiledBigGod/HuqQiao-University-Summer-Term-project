@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.atguigu.lease.web.app.mapper.AttrValueMapper">
+<mapper namespace="edu.hqu.lease.web.app.mapper.AttrValueMapper">
 
-    <select id="listRoomAttrById" resultType="com.atguigu.lease.web.app.vo.attr.AttrValueVo">
+    <select id="listRoomAttrById" resultType="edu.hqu.lease.web.app.vo.attr.AttrValueVo">
         SELECT
                av.name,
                av.attr_key_id,

@@ -2,11 +2,11 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.atguigu.lease.web.app.mapper.LeaseAgreementMapper">
-    <resultMap id="AgreementIemVoMap" type="com.atguigu.lease.web.app.vo.agreement.AgreementItemVo" autoMapping="true">
+<mapper namespace="edu.hqu.lease.web.app.mapper.LeaseAgreementMapper">
+    <resultMap id="AgreementIemVoMap" type="edu.hqu.lease.web.app.vo.agreement.AgreementItemVo" autoMapping="true">
         <id property="id" column="id"/>
 
-        <collection property="roomGraphVoList" ofType="com.atguigu.lease.web.app.vo.graph.GraphVo" autoMapping="true"/>
+        <collection property="roomGraphVoList" ofType="edu.hqu.lease.web.app.vo.graph.GraphVo" autoMapping="true"/>
     </resultMap>
     <select id="listTtemByPhone" resultMap="AgreementIemVoMap">
         select la.id,

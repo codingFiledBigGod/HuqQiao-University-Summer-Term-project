@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.atguigu.lease.web.app.mapper.FacilityInfoMapper">
+<mapper namespace="edu.hqu.lease.web.app.mapper.FacilityInfoMapper">
 
-    <select id="listFacilityByRoomId" resultType="com.atguigu.lease.model.entity.FacilityInfo">
+    <select id="listFacilityByRoomId" resultType="edu.hqu.lease.model.entity.FacilityInfo">
         SELECT
                fi.type,
                fi.name,
