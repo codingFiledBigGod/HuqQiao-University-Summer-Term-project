@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.lease.web.app.mapper.FeeValueMapper">
+
+    <select id="listFeeByRoomId" resultType="com.atguigu.lease.web.app.vo.fee.FeeValueVo">
+        SELECT
+            fk.`name` fee_key_name,
+            fv.`name`,
+            fv.unit
+        FROM apartment_fee_value afv
+                 LEFT JOIN fee_value fv ON afv.fee_value_id=fv.id AND fv.is_deleted=0
+                 LEFT JOIN fee_key fk ON fv.fee_key_id=fk.id AND fk.is_deleted=0
+        WHERE afv.apartment_id=(
+            SELECT apartment_id FROM room_info WHERE id=#{roomId}
+        ) AND afv.is_deleted=0
+    </select>
+</mapper>

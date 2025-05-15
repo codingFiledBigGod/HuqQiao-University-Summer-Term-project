@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ApartmentInfoMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/FeeKeyMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/LeaseAgreementMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/RoomInfoMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/SystemUserMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-admin/src/main/resources/mapper/ViewAppointmentMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/AttrValueMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/BrowsingHistoryMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FacilityInfoMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/FeeValueMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LabelInfoMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LeaseAgreementMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" dialect="GenericSQL" />
+  </component>
+</project>
