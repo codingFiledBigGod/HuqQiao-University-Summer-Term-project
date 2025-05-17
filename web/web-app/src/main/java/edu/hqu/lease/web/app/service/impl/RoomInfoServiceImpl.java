@@ -1,11 +1,11 @@
 package edu.hqu.lease.web.app.service.impl;
 
 import edu.hqu.lease.common.constant.RedisConstant;
-import com.atguigu.lease.model.entity.*;
+import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.enums.ItemType;
-import com.atguigu.lease.web.app.mapper.*;
-import com.atguigu.lease.web.app.service.*;
+import edu.hqu.lease.web.app.mapper.*;
+import edu.hqu.lease.web.app.service.*;
 import edu.hqu.lease.web.app.mapper.*;
 import edu.hqu.lease.web.app.service.*;
 import edu.hqu.lease.web.app.vo.apartment.ApartmentDetailVo;
@@ -45,23 +45,31 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
 
     @Autowired
     private RoomInfoMapper roomInfoMapper;
+
     @Autowired
     private ApartmentInfoService apartmentInfoService;
+
     @Autowired
     private GraphInfoMapper graphInfoMapper;
+
     @Autowired
     private AttrValueMapper attrValueMapper;
+
     @Autowired
     private FacilityInfoMapper facilityInfoMapper;
+
     @Autowired
     private LabelInfoMapper labelInfoMapper;
+
     @Autowired
     private PaymentTypeService paymentTypeService;
+
     @Autowired
     private FeeValueMapper feeValueMapper;
 
     @Autowired
     private LeaseTermService leaseTermService;
+
     @Autowired
     private BrowsingHistoryService browsingHistoryService;
 
@@ -127,7 +135,7 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
         }
 
         //保存浏览历史
-
+        browsingHistoryService.saveHistory(id);
         return res;
     }
 }
