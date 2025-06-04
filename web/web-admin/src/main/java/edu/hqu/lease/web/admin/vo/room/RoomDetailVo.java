@@ -1,6 +1,6 @@
 package edu.hqu.lease.web.admin.vo.room;
 
-import com.atguigu.lease.model.entity.*;
+import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.web.admin.vo.attr.AttrValueVo;
 import edu.hqu.lease.web.admin.vo.graph.GraphVo;

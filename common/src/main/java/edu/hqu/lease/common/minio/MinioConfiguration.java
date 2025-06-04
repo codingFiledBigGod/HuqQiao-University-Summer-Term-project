@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConfigurationPropertiesScan("com.atguigu.lease.common.minio")
+@ConfigurationPropertiesScan("edu.hqu.lease.common.minio")
 @ConditionalOnProperty(name = "minio.endpoint")
 public class MinioConfiguration {
 

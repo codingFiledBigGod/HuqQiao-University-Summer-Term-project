@@ -1,6 +1,6 @@
 package edu.hqu.lease.web.admin.vo.agreement;
 
-import com.atguigu.lease.model.entity.*;
+import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.entity.*;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;

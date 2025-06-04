@@ -23,7 +23,6 @@ public class BaseEntity implements Serializable {
     @Schema(description = "更新时间")
     @TableField(value = "update_time",fill = FieldFill.UPDATE)
     @JsonIgnore
-
     private Date updateTime;
 
     @Schema(description = "逻辑删除")

@@ -53,4 +53,12 @@ public class Knife4jConfiguration {
                 ).
                 build();
     }
+    @Bean
+    public GroupedOpenApi CommunityAPI() {
+        return GroupedOpenApi.builder().group("帖子信息").
+                pathsToMatch(
+                        "/app/topic/**",
+                        "/app/comment/**"
+                ).build();
+    }
 }

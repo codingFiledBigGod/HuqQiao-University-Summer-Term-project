@@ -1,7 +1,7 @@
 package edu.hqu.lease.web.admin.service.impl;
 
-import com.atguigu.lease.model.entity.*;
-import com.atguigu.lease.web.admin.mapper.*;
+import edu.hqu.lease.model.entity.*;
+import edu.hqu.lease.web.admin.mapper.*;
 import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.web.admin.mapper.*;
 import edu.hqu.lease.web.admin.service.LeaseAgreementService;

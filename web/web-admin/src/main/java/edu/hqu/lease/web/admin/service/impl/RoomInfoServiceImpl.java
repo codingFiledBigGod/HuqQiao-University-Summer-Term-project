@@ -1,11 +1,11 @@
 package edu.hqu.lease.web.admin.service.impl;
 
 import edu.hqu.lease.common.constant.RedisConstant;
-import com.atguigu.lease.model.entity.*;
+import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.enums.ItemType;
 import edu.hqu.lease.web.admin.mapper.RoomInfoMapper;
-import com.atguigu.lease.web.admin.service.*;
+import edu.hqu.lease.web.admin.service.*;
 import edu.hqu.lease.web.admin.service.*;
 import edu.hqu.lease.web.admin.vo.attr.AttrValueVo;
 import edu.hqu.lease.web.admin.vo.graph.GraphVo;
@@ -63,6 +63,8 @@ public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>
     private LabelInfoService labelInfoService;
     @Autowired
     private PaymentTypeService paymentTypeService;
+
+
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 

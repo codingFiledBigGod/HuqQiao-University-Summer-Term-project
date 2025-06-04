@@ -1,9 +1,9 @@
 package edu.hqu.lease.web.app.service.impl;
 
-import com.atguigu.lease.model.entity.*;
+import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.enums.ItemType;
-import com.atguigu.lease.web.app.mapper.*;
+import edu.hqu.lease.web.app.mapper.*;
 import edu.hqu.lease.web.app.mapper.*;
 import edu.hqu.lease.web.app.service.LeaseAgreementService;
 import edu.hqu.lease.web.app.vo.agreement.AgreementDetailVo;

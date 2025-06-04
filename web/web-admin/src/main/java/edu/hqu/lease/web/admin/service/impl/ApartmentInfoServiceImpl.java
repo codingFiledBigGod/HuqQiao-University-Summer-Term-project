@@ -1,12 +1,12 @@
 package edu.hqu.lease.web.admin.service.impl;
 
 import edu.hqu.lease.common.exception.LeaseException;
-import com.atguigu.lease.model.entity.*;
+import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.entity.*;
 import edu.hqu.lease.model.enums.ItemType;
 import edu.hqu.lease.web.admin.mapper.ApartmentInfoMapper;
 import edu.hqu.lease.web.admin.mapper.RoomInfoMapper;
-import com.atguigu.lease.web.admin.service.*;
+import edu.hqu.lease.web.admin.service.*;
 import edu.hqu.lease.web.admin.service.*;
 import edu.hqu.lease.web.admin.vo.apartment.ApartmentDetailVo;
 import edu.hqu.lease.web.admin.vo.apartment.ApartmentItemVo;

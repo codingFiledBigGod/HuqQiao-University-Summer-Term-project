@@ -14,5 +14,6 @@
     <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LabelInfoMapper.xml" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/LeaseAgreementMapper.xml" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/RoomInfoMapper.xml" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/web/web-app/src/main/resources/mapper/TopicMapper.xml" dialect="GenericSQL" />
   </component>
 </project>
