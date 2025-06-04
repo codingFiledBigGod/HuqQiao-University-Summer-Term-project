@@ -23,6 +23,7 @@ public class FileServiceImpl implements FileService {
 
     @Autowired
     private MinioProperties properties;
+
     @Override
     public String upload(MultipartFile file) throws ServerException, InsufficientDataException, ErrorResponseException, IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException {
 
